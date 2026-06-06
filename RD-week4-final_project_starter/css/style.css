@@ -30,9 +30,7 @@ figcaption{
     margin-top:10px;
 }
 
-/* Tablet View */
 @media screen and (min-width:772px){
-
     .grid{
         grid-template-columns:1fr 1fr;
     }
@@ -46,9 +44,7 @@ figcaption{
     }
 }
 
-/* Large Screen View */
 @media screen and (min-width:992px){
-
     .grid{
         grid-template-columns:1fr 1fr 1fr;
     }
@@ -62,20 +58,16 @@ figcaption{
     }
 }
 
-/* Reduced Motion */
 @media (prefers-reduced-motion: reduce){
-
     html{
         scroll-behavior:auto;
     }
 }
 
-/* Dark Mode */
 @media (prefers-color-scheme: dark){
-
     body{
         background-color:#121212;
-        color:#ffffff;
+        color:white;
     }
 
     figure{
